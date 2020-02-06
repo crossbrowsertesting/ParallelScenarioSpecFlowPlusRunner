@@ -11,10 +11,10 @@ namespace ParallelSpecFlowPlusRunner
     public class FeatureSteps
     {
 
-        public string username = "nathaniel.stokes@smartbear.com";
+        public string username = "Enter your username";
         RemoteWebDriver driverChrome;
         RemoteWebDriver driverFirefox;
-        public string authkey = "u3c89dcfa8345a28";
+        public string authkey = "Enter your authkey";
 
 
         [Given(@"I navigate to the page ""(.*)""")]
